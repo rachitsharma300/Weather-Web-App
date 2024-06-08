@@ -1,0 +1,252 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center; 
+    justify-content: center;
+    background-image: url('images/b1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.animated-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  color: #FFFFFF; 
+  /* animation: fadeIn 10s ease-in-out infinite; */
+  background: linear-gradient(to right, #f3f1f1, #f0ecec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* @keyframes fadeIn {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+} */
+
+.news-ticker {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.news-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker 30s linear infinite;
+}
+
+@keyframes ticker {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+
+.container {
+    text-align: center; 
+}
+
+.content {
+    /* background: rgba(255, 255, 255, 0.2); */
+     
+    padding: 250px;
+    border-radius: 200px;
+    color: white;
+    position: relative;
+}
+
+.heading {
+    position: fixed;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; 
+    background: linear-gradient(#af541f, #f1ebeb, #159420);
+    color: rgb(246, 240, 240);
+    opacity: 0.8;
+}
+
+.subheading {
+    position: absolute;
+    bottom: 5px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #159420;
+}
+.link {
+  color: #159420;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.tech-heading {
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #af541f;
+}
+.paragraph {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+
+.mainContainer {
+  width: 25rem;
+  height: auto;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 14px 28px rgba(43, 42, 42, 0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.searchInput {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.searchInput input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+  font-size: 1rem;
+  color: #525050;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #b3b3b3;
+  transition: all 0.3s ease;
+  background: linear-gradient(90deg, #e3ffe7, #d9e7ff);
+}
+
+.searchInput input:focus {
+  border: 1px solid #9c9dde;
+  box-shadow: 0 0 10px rgba(0, 128, 128, 0.8);
+}
+
+.searchInput button {
+  width: 2.2rem;
+  height: 2rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+  transition: all 0.3s ease;
+  background-color: #9c9dde;
+  border: 1px solid #9c9dde;
+}
+
+.searchInput button:hover {
+  background-color: #159420;
+  box-shadow: 0 0 10px rgba(21, 148, 32, 0.5);
+}
+
+.searchInput button:active {
+  transform: scale(0.95);
+}
+
+.weatherIcon {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+}
+
+.weatherIcon img {
+  max-width: 100%;
+  width: 8rem;
+}
+
+.weatherDetails .temp{
+ font-size: 2rem;
+}
+.cityDetails {
+  color: #323232;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.cityDetails .date {
+  color: #323232;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.windDetails {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-around;
+}
+
+.windDetails .humidityBox {
+  display: flex;
+  font-size: 1rem;
+  color: #323232;
+}
+
+.windDetails .humidity .humidityValue {
+ text-align: center;
+  font-size: 2rem;
+  color: #323232;
+}
+
+.windDetails .humidityBox img {
+  max-height: 3rem;
+  margin-right: 0.5rem;
+}
+
+.windDetails .windSpeed {
+  display: flex;
+  font-size: 1rem;
+  color: #323232;
+}
+
+.windDetails .windSpeed img {
+  max-height: 3rem;
+  margin-right: 0.5rem;
+}
+
+
+image-logo{
+        height: auto;
+        width: auto;
+        filter: drop-shadow(20px 10px 10px black);
+      }
