@@ -28,9 +28,12 @@
 - **JavaScript**: Adding interactivity.
 - **OpenWeather API**: Fetching weather data.
 - **Font Awesome**: Icons for better visual representation.
-
-  ##screenshorts
+## Screenshorts
   (![Update Page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e7986605-ec8b-4858-ab00-2e6e8680e5c2)
+  
+## demo-video
+https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e-44d1-9ab8-e01451e1e908
+
 
 ## Setup and Installation
 1. **Clone the repository:**
