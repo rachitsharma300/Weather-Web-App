@@ -1,5 +1,10 @@
 # Aaj Ka Mausam - Weather Web App 🌦️
-![Main page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/35b32e03-1483-43b1-8889-d7a64d08db66)
+
+## demo-video
+https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e-44d1-9ab8-e01451e1e908
+
+
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -30,9 +35,10 @@
 - **Font Awesome**: Icons for better visual representation.
 ## Screenshorts
   (![Update Page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e7986605-ec8b-4858-ab00-2e6e8680e5c2)
+
+  ![Main page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/35b32e03-1483-43b1-8889-d7a64d08db66)
   
-## demo-video
-https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e-44d1-9ab8-e01451e1e908
+
 
 
 ## Setup and Installation
