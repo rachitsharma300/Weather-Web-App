@@ -9,11 +9,14 @@
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Screenshots](![Update Page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/c4f3a57a-fa85-40f5-b342-ea6fb3969f32)![FIle Structure](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e3ca4c9c-9089-4668-a2d4-12f55e7af4ce))
+- [Screenshots]
+  (![Update Page]
+  (https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/c4f3a57a-fa85-40f5-b342-ea6fb3969f32)
+ ![FIle Structure](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e3ca4c9c-9089-4668-a2d4-12f55e7af4ce))
   
 
 - [Demo Video]
-https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/f461d4d4-80dc-481e-92d2-af69d75a2957
+(https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/f461d4d4-80dc-481e-92d2-af69d75a2957)
 
 
   
