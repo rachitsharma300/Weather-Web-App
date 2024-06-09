@@ -14,6 +14,7 @@ https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e
 - [Usage](#usage)
 - [Screenshots](#screenshorts)
 - [Demo Video](#demo-video)
+- [Project Structure](#project-structure)
 
 
 ## Introduction
@@ -34,9 +35,9 @@ https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e
 - **OpenWeather API**: Fetching weather data.
 - **Font Awesome**: Icons for better visual representation.
 ## Screenshorts
-  (![Update Page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e7986605-ec8b-4858-ab00-2e6e8680e5c2)
-
   ![Main page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/35b32e03-1483-43b1-8889-d7a64d08db66)
+
+  (![Update Page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e7986605-ec8b-4858-ab00-2e6e8680e5c2)
   
 
 
@@ -45,3 +46,40 @@ https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/rachitsharma300/Weather-Web-App.git
+
+## project-structure
+mausam/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── mausam/
+│   │   │           ├── controller/
+│   │   │           │   └── MyServlet.java
+│   │   │           └── model/
+│   │   │               └── Weather.java
+│   │   └── resources/
+│   │       └── META-INF/
+│   │           └── context.xml
+│   └── test/
+│       └── java/
+│
+├── WebContent/
+│   ├── META-INF/
+│   │   └── context.xml
+│   ├── WEB-INF/
+│   │   ├── web.xml
+│   │   └── lib/
+│   ├── images/
+│   │   └── b1.jpg
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── myScript.js
+│   ├── index.jsp
+│   └── README.md
+│
+├── .gitignore
+└── pom.xml
+
