@@ -47,38 +47,3 @@ https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e
    ```sh
    git clone https://github.com/rachitsharma300/Weather-Web-App.git
 
-## project-structure
-mausam/
-│
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── mausam/
-│ │ │ ├── controller/
-│ │ │ │ └── MyServlet.java
-│ │ │ └── model/
-│ │ │ └── Weather.java
-│ │ └── resources/
-│ │ └── META-INF/
-│ │ └── context.xml
-│ └── test/
-│ └── java/
-│
-├── WebContent/
-│ ├── META-INF/
-│ │ └── context.xml
-│ ├── WEB-INF/
-│ │ ├── web.xml
-│ │ └── lib/
-│ ├── images/
-│ │ └── b1.jpg
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ └── myScript.js
-│ ├── index.jsp
-│ └── README.md
-│
-├── .gitignore
-└── pom.xml
