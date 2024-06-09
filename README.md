@@ -1,6 +1,7 @@
 # Aaj Ka Mausam - Weather Web App 🌦️
 
-![Project Banner](#) <!-- Replace with a screenshot or banner image -->
+![Project Banner](![Main page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e6315afa-88e6-4733-ad8f-2675790320e9)
+) <!-- Replace with a screenshot or banner image -->
 
 ## Table of Contents
 - [Introduction](#introduction)
