@@ -1,7 +1,5 @@
 # Aaj Ka Mausam - Weather Web App 🌦️
-
-![Project Banner](![Main page](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/505329f1-4ee0-4690-bc5f-978717c3ea57)
-) <!-- Replace with a screenshot or banner image -->
+<img src="https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e589c2d5-9f04-4846-9b7e-b49dd86f9aa7" alt="">
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,18 +7,8 @@
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Screenshots]
-  (![Update Page]
-  (https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/c4f3a57a-fa85-40f5-b342-ea6fb3969f32)
- ![FIle Structure](https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/e3ca4c9c-9089-4668-a2d4-12f55e7af4ce))
-  
-
-- [Demo Video]
-(https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/f461d4d4-80dc-481e-92d2-af69d75a2957)
-
-
-  
-
+- [Screenshots](#screenshort)
+- [Demo Video](#)
 ## Introduction
 **Aaj Ka Mausam** is a web application that provides real-time weather updates for cities around the world. Using the OpenWeather API, it fetches and displays current weather conditions, temperature, humidity, and wind speed. The app also features both analog and digital clocks for a comprehensive user experience.
 
