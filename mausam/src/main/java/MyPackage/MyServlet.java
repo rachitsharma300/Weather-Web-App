@@ -45,7 +45,7 @@ public class MyServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	//  API Setup
 		
-	String apiKey = "2a1b478e2c3cad163d182aecbd93070d";
+	String apiKey = "ENTER YOUR API";
 	//  Get the city from thr form input
 	
 	String city = request.getParameter("city");
